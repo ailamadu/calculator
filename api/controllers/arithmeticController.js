@@ -7,7 +7,7 @@ exports.calculate = function(req, res) {
     }
 
     res.status(400);
-    res.json({ error: err.message });
+    res.json({ error: err.message }); 
   });
 
   var operations = {
